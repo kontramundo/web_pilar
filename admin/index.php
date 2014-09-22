@@ -143,7 +143,7 @@ else
                         <!-- BANNER <?php echo $i;?> -->
                         <div class="col-md-6">
                           <h4>Marca <?php echo $i;?></h4>
-                          <small>165 x 80</small>
+                          <small>JPG / 165 x 80 pixeles</small>
 
                           <div class="row">
                             <div class="col-md-8">
@@ -173,143 +173,37 @@ else
 
                   <div class="col-md-6">
                     <div class="row">
-                      <!-- SLIDE 1 -->
-                      <div class="col-md-6">
-                        <h4>Slide 1</h4>
-                        <small>1920 × 550</small>
 
-                        <div class="row">
-                          <div class="col-md-8">
-                            <!-- Carga de archivos -->
-                            <div class="form-group">
-                                <input type="file" name="slide1" id="slide1" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
-                                <p>
-                                  <button data-file="slide1" data-folder="assets/img/sliders" data-res="#res_archivo1" data-tipo="slide"  class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
-                                </p>
+
+                      <?php
+                      for($i=1;$i<=6;$i++)
+                      {
+                        ?>
+                        <!-- SLIDE <?php echo $i;?> -->
+                        <div class="col-md-6">
+                          <h4>Slide 1</h4>
+                          <small>JPG / 1920 × 550 pixeles</small>
+
+                          <div class="row">
+                            <div class="col-md-8">
+                              <!-- Carga de archivos -->
+                              <div class="form-group">
+                                  <input type="file" name="slide<?php echo $i;?>" id="slide<?php echo $i;?>" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
+                                  <p>
+                                    <button data-file="slide<?php echo $i;?>" data-folder="assets/img/sliders" data-res="#res_archivo<?php echo $i;?>" data-tipo="slide"  class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
+                                  </p>
+                              </div>
+                              <!-- Fin Carga de archivos -->
                             </div>
-                            <!-- Fin Carga de archivos -->
-                          </div>
-                          <div class="col-md-4" id="res_archivo1">
-                            
+                            <div class="col-md-4" id="res_archivo<?php echo $i;?>">
+                              
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <!-- Fin SLIDE 1 -->
-
-                      <!-- SLIDE 2 -->
-                      <div class="col-md-6">
-                        <h4>Slide 2</h4>
-                        <small>1920 × 550</small>
-
-                        <div class="row">
-                          <div class="col-md-8">
-                            <!-- Carga de archivos -->
-                            <div class="form-group">
-                                <input type="file" name="slide2" id="slide2" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
-                                <p>
-                                  <button data-file="slide2" data-folder="assets/img/sliders" data-res="#res_archivo2" data-tipo="slide"  class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
-                                </p>
-                            </div>
-                            <!-- Fin Carga de archivos -->
-                          </div>
-                          <div class="col-md-4" id="res_archivo2">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Fin SLIDE 2 -->
-
-                      <!-- SLIDE 3 -->
-                      <div class="col-md-6">
-                        <h4>Slide 3</h4>
-                        <small>1920 × 550</small>
-
-                        <div class="row">
-                          <div class="col-md-8">
-                            <!-- Carga de archivos -->
-                            <div class="form-group">
-                                <input type="file" name="slide3" id="slide3" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
-                                <p>
-                                  <button data-file="slide3" data-folder="assets/img/sliders" data-res="#res_archivo3" data-tipo="slide"  class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
-                                </p>
-                            </div>
-                            <!-- Fin Carga de archivos -->
-                          </div>
-                          <div class="col-md-4" id="res_archivo3">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Fin SLIDE 3 -->
-
-                      <!-- SLIDE 4 -->
-                      <div class="col-md-6">
-                        <h4>Slide 4</h4>
-                        <small>1920 × 550</small>
-
-                        <div class="row">
-                          <div class="col-md-8">
-                            <!-- Carga de archivos -->
-                            <div class="form-group">
-                                <input type="file" name="slide4" id="slide4" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
-                                <p>
-                                  <button data-file="slide4" data-folder="assets/img/sliders" data-res="#res_archivo4" data-tipo="slide"  class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
-                                </p>
-                            </div>
-                            <!-- Fin Carga de archivos -->
-                          </div>
-                          <div class="col-md-4" id="res_archivo4">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Fin SLIDE 4 -->
-
-                      <!-- SLIDE 6 -->
-                      <div class="col-md-6">
-                        <h4>Slide 5</h4>
-                        <small>1920 × 550</small>
-
-                        <div class="row">
-                          <div class="col-md-8">
-                            <!-- Carga de archivos -->
-                            <div class="form-group">
-                                <input type="file" name="slide5" id="slide5" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
-                                <p>
-                                  <button data-file="slide5" data-folder="assets/img/sliders" data-res="#res_archivo5" data-tipo="slide"  class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
-                                </p>
-                            </div>
-                            <!-- Fin Carga de archivos -->
-                          </div>
-                          <div class="col-md-4" id="res_archivo5">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Fin SLIDE 5 -->
-
-                      <!-- SLIDE 6 -->
-                      <div class="col-md-6">
-                        <h4>Slide 6</h4>
-                        <small>1920 × 550</small>
-
-                        <div class="row">
-                          <div class="col-md-8">
-                            <!-- Carga de archivos -->
-                            <div class="form-group">
-                                <input type="file" name="slide6" id="slide6" class="input_file" accept="image/jpeg" style="display:none;" placeholder="Examinar"/>
-                                <p>
-                                  <button data-file="slide6" data-folder="assets/img/sliders" data-res="#res_archivo6" data-tipo="slide" class="btn btn-large btn-danger adjuntar"><i class="fa fa-search-plus"></i> Seleccionar Archivo</button>
-                                </p>
-                            </div>
-                            <!-- Fin Carga de archivos -->
-                          </div>
-                          <div class="col-md-4" id="res_archivo6">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Fin SLIDE 6 -->
+                        <!-- Fin SLIDE <?php echo $i;?> -->
+                        <?php
+                      }
+                      ?>
                     </div>
                   </div>
 
