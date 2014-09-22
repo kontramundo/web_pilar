@@ -404,7 +404,16 @@
                               <input type="text" name="cantidad[]" class="cantidad form-control solo_numeros" placeholder="Cant." <?php if ($i==1){ echo "required";}?> >
                             </div>
                           </div>
-                          <div class="col-sm-11">
+                          <div class="col-sm-1">
+                            <div class="form-group">
+                              <label class="sr-only">U.M.</label>
+                              <select  name="unidad[]" class="unidad form-control"  <?php if ($i==1){ echo "required";}?> >
+                              <option value="" selected>U. M.</option>
+                              <option value="lts">lts</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-sm-10">
                             <div class="form-group">
                               <label class="sr-only">Producto</label>
                               <input type="text" name="producto[]" class="producto form-control" placeholder="Producto" <?php if ($i==1){ echo "required";}?>>
