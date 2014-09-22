@@ -407,7 +407,7 @@
                           <div class="col-sm-1">
                             <div class="form-group">
                               <label class="sr-only">U.M.</label>
-                              <select  name="unidad[]" class="unidad form-control"  <?php if ($i==1){ echo "required";}?> >
+                              <select  name="unidad[]" class="unidad form-control" <?php if ($i==1){ echo "required";}?> >
                               <option value="" selected>U. M.</option>
                               <option value="lts">lts</option>
                               </select>

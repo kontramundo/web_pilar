@@ -9,6 +9,7 @@ $comentarios = trim($_POST['comentarios']);
 
 $cantidad    = $_POST['cantidad'];
 $producto    = $_POST['producto'];
+$unidad		 = $_POST['unidad'];
 
 
 if (!get_magic_quotes_gpc())
@@ -209,6 +210,7 @@ $mensaje='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w
 					                  		<table width="100%" border="0">
 					                  			<thead>
 					                  				<th>Cantidad</th>
+					                  				<th>Unidad de medida</th>
 					                  				<th>Producto</th>
 					                  			</thead>
 					                  			<tbody>';
@@ -219,6 +221,7 @@ $mensaje='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w
 					                  					$mensaje.='
 						                  				<tr>
 						                  					<td align="center">'.$cantidad[$i].'</td>
+						                  					<td align="center">'.$unidad[$i].'</td>
 						                  					<td>'.$producto[$i].'</td>
 						                  				</tr>';
 						                  			}
@@ -303,12 +306,9 @@ $mail->Password = "chapulin8";
 
 //Set who the message is to be sent from
 $mail->setFrom('heisenberg@kontramundo.com', utf8_decode('Pilar Eléctrica'));
-
-//Set an alternative reply-to address
 $mail->addReplyTo('heisenberg@kontramundo.com', utf8_decode('Pilar Eléctrica'));
-
-//Set who the message is to be sent to
 $mail->addAddress('heisenb3rg@gmail.com', utf8_decode('Pilar Eléctrica'));
+$mail->addCC('chavadorsj@hotmail.com');
 
 //Set the subject line
 $mail->Subject = utf8_decode('Cotización');

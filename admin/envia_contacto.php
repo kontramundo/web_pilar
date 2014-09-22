@@ -282,12 +282,9 @@ $mail->Password = "chapulin8";
 
 //Set who the message is to be sent from
 $mail->setFrom('heisenberg@kontramundo.com', utf8_decode('Pilar Eléctrica'));
-
-//Set an alternative reply-to address
 $mail->addReplyTo('heisenberg@kontramundo.com', utf8_decode('Pilar Eléctrica'));
-
-//Set who the message is to be sent to
 $mail->addAddress('heisenb3rg@gmail.com', utf8_decode('Pilar Eléctrica'));
+$mail->addCC('chavadorsj@hotmail.com');
 
 //Set the subject line
 $mail->Subject = 'Contacto';
