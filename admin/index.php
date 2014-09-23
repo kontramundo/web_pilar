@@ -181,7 +181,7 @@ else
                         ?>
                         <!-- SLIDE <?php echo $i;?> -->
                         <div class="col-md-6">
-                          <h4>Slide 1</h4>
+                          <h4>Slide <?php echo $i;?></h4>
                           <small>JPG / 1920 × 550 pixeles</small>
 
                           <div class="row">
