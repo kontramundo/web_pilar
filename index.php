@@ -179,131 +179,138 @@
         <section id="features" class="section section-center section-hilite section-features">
           <div class="container">
             <h2 class="section-title"><span>Nuestra Empresa</span></h2>
+            <div class="row>">
+              <div class="col-md-12">
+                <div class="icon-wrap"><img src="assets/img/empresa.png" alt=""></div>
+                  <h4>HISTORIA DE LA EMPRESA</h4>
+                  <p>Pilar Eléctrica SA de CV, empresa totalmente Mexicana, fundada  el 18 de Enero del 2000  por la Sra. Pilar Rendón Casas, quien es un ejemplo de Mujer Emprendedora y con una gran visión de negocio, sin perder de vista su compromiso con la familia, las personas que conforman su equipo de trabajo y  sus socios comerciales, establecida entre los límites de Cuautitlán Izcalli, Cuautitlán México y Tultitlan de Escobedo. </p>
+              </div>
+            </div>
             <div class="row">
 
-              <div class="col-md-4 col-sm-6">
-                <div class="icon-wrap"><img src="assets/img/icon-easel-flat.png" alt=""></div>
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+              <div class="col-md-6 col-sm-6">
+              <div class="icon-wrap"><img src="assets/img/vision.png" alt=""></div>
+                <h4>VISION</h4>
+                <p>Lograr ser una de las mejores empresas de la zona, satisfaciendo las necesidades de nuestros clientes, ofreciendo los mejores productos nacionales y de importación, desarrollando alianzas estratégicas con las empresas que nos respaldan con productos de marcas certificadas, y la capacitación constante  del personal que conforma esta empresa.</p>
               </div>
 
-              <div class="col-md-4 col-sm-6">
-                <div class="icon-wrap"><img src="assets/img/icon-comments-flat.png" alt=""></div>
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+              <div class="col-md-6 col-sm-6">
+              <div class="icon-wrap"><img src="assets/img/mision.png" alt=""></div>
+                <h4>MISION</h4>
+                <p>Apoyar a nuestros clientes en sus procesos de producción, entregando nuestros productos y servicios a tiempo, así evitar tiempos muertos, afectando la productividad, mantener una comunicación constante e imprescindible para lograr dar el mejor servicio.</p>
               </div>
-
-              <div class="col-md-4 col-sm-6">
-                <div class="icon-wrap"><img src="assets/img/icon-book-flat.png" alt=""></div>
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-              </div>
-
-              <div class="col-md-4 col-sm-6">
-                <div class="icon-wrap"><img src="assets/img/icon-bag-flat.png" alt=""></div>
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-              </div>
-
-              <div class="col-md-4 col-sm-6">
-                <div class="icon-wrap"><img src="assets/img/icon-photo-flat.png" alt=""></div>
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-              </div>
-
-              <div class="col-md-4 col-sm-6">
-                <div class="icon-wrap"><img src="assets/img/icon-calculator-flat.png" alt=""></div>
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-              </div>
-
             </div>
+
+            <div class="row>">
+              <div class="col-md-12">
+                <div class="icon-wrap"><img src="assets/img/compromiso.png" alt=""></div>
+                  <h4>NUESTRO COMPROMISO</h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="icon-wrap"><img src="assets/img/comercial.png" alt=""></div>
+                <h4>COMERCIAL</h4>
+                <p>Dar el mejor servicio a clientes y socios comerciales, con prontitud, calidad y con los mejores precios competitivos del mercado.</p>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>AMBIENTAL</h4>
+                <p>Somos una empresa interesada y decidida en cooperar en el cuidado del medio ambiente.
+                  <br/>Se tienen contenedores al público en general para depósito de pilas usadas, posteriormente entregarlas para su tratamiento de acuerdo a Normas establecidas. 
+                </p>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="icon-wrap"><img src="assets/img/social.png" alt=""></div>
+                <h4>SOCIAL</h4>
+                <p><strong>Pilar Eléctrica SA de CV</strong>, es una empresa a favor de la vida, ya que ésta es el derecho fundamental del ser humano, por lo que nos conducimos con ética y humanismo.</p>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <div class="icon-wrap"><img src="assets/img/productos.png" alt=""></div>
+                <h4>PRODUCTOS</h4>
+                <p>Somos distribuidores de las mejores marcas de material eléctrico nacionales y de importación.<br/> 
+                Contamos con todo tipo de materiales para iluminación, tuberías, conexiones, conductores eléctricos, terminales, conectores, pirómetros, termopares, PT 100, PLC, variadores de velocidad, relevadores estado sólido, sensores, potenciómetros, etc.
+                <br/>Si el equipo que busca no lo encuentra en México, nosotros se lo conseguimos alrededor del mundo.
+                </p>
+              </div>
+            </div>
+
+
           </div>
         </section>
 
         <section id="portfolio" class="section section-portfolio">
           <div class="container">
             <h2 class="section-title"><span>Servicios</span></h2>
-            <ul id="filters">
-              <li><a href="#" data-filter="*">All</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".web">Web Design</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".photography">Photography</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".motion">Motion Graphics</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".branding">Branding</a></li>
-            </ul>
 
-            <div class="portfolio-isotope row">
-              <article class="post col-md-3 col-sm-6 portfolio-item branding photography web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-1.jpg" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item motion graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-2.jpg" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item branding web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-3.png" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item photography graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-4.png" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item motion web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-5.png" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item branding graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-6.jpg" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item motion photography web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-8.jpg" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="post col-md-3 col-sm-6 portfolio-item photography motion branding graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="assets/img/project-7.jpg" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/comercial.png" alt=""></div>
+                <h4>Automatización</h4>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>Ingeniería y diseño de cualquier máquina</h4>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>Mecatronica</h4>
+              </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/comercial.png" alt=""></div>
+                <h4>Importación</h4>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>Entrega a domicilio</h4>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>Personal capacitado</h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/comercial.png" alt=""></div>
+                <h4>Personal capacitado</h4>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>Contamos con venta de mostrador mayoreo y menudeo</h4>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/ambiental.png" alt=""></div>
+                <h4>Asesoría técnica personalizada y por teléfono</h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <div class="icon-wrap"><img src="assets/img/comercial.png" alt=""></div>
+                <h4>Asesoría técnica en ingeniería e iluminación</h4>
+              </div>
+            </div>
+
+
+
+
 
           </div>
         </section>
